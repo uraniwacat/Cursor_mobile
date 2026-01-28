@@ -1,0 +1,17 @@
+{
+  "name": "cursor-mobile-rights-checker-agent",
+  "version": "0.1.0",
+  "description": "オリジナリティ・権利チェックエージェント — 創作物の権利リスクを分析",
+  "main": "cli/check.js",
+  "bin": {
+    "rights-checker": "cli/check.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "start": "node cli/check.js",
+    "check": "node cli/check.js"
+  },
+  "license": "MIT"
+}
