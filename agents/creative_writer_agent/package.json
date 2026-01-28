@@ -1,0 +1,1 @@
+{"name":"cursor-mobile-creative-writer-agent","version":"0.1.0","description":"Creative writer agent (バカリズム風) — Node.js CLI (初版)","main":"cli/generate.js","bin":{"creative-writer":"cli/generate.js"},"engines":{"node":">=14"},"scripts":{"start":"node cli/generate.js","generate":"node cli/generate.js"},"license":"MIT"}
