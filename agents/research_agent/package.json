@@ -1,0 +1,10 @@
+{
+  "name": "research-agent",
+  "version": "1.0.0",
+  "description": "トレンド分析・調査エージェント",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT"
+}

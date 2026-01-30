@@ -1,0 +1,31 @@
+{
+  "name": "writing-workspace",
+  "version": "1.0.0",
+  "description": "効率的な執筆ワークスペース - AIエージェント統合システム",
+  "main": "orchestrator/cli/run.js",
+  "scripts": {
+    "start": "node orchestrator/cli/run.js",
+    "new": "node scripts/new-project.js",
+    "status": "node scripts/status.js",
+    "write": "node orchestrator/cli/run.js",
+    "quick": "node orchestrator/cli/run.js --workflow quick_draft",
+    "help": "node orchestrator/cli/run.js --help"
+  },
+  "bin": {
+    "write": "orchestrator/cli/run.js",
+    "new-project": "scripts/new-project.js",
+    "project-status": "scripts/status.js"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "keywords": [
+    "writing",
+    "agent",
+    "creative",
+    "satire",
+    "workflow"
+  ],
+  "author": "",
+  "license": "MIT"
+}

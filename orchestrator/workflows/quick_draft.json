@@ -1,0 +1,23 @@
+{
+  "name": "quick_draft",
+  "description": "簡易執筆ワークフロー（確認なし、高速生成）",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "id": "draft",
+      "name": "ドラフト生成",
+      "agent": "creative_writer_agent",
+      "action": "generate_draft",
+      "output": "drafts/v{version}_{date}.md",
+      "confirm": false
+    },
+    {
+      "id": "rights_check",
+      "name": "権利チェック",
+      "agent": "rights_checker_agent",
+      "action": "check_rights",
+      "output": "reports/v{version}_rights_report.md",
+      "confirm": false
+    }
+  ]
+}

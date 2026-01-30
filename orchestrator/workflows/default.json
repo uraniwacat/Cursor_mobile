@@ -1,0 +1,43 @@
+{
+  "name": "default",
+  "description": "標準執筆ワークフロー（確認ポイント付き）",
+  "version": "1.0.0",
+  "steps": [
+    {
+      "id": "research",
+      "name": "トレンド分析",
+      "agent": "research_agent",
+      "action": "analyze_trends",
+      "output": "research/trends_{date}.json",
+      "confirm": true,
+      "confirmType": "trends",
+      "confirmMessage": "このトレンドで執筆を開始しますか？"
+    },
+    {
+      "id": "draft",
+      "name": "初稿生成",
+      "agent": "creative_writer_agent",
+      "action": "generate_draft",
+      "output": "drafts/v{version}_{date}.md",
+      "confirm": false
+    },
+    {
+      "id": "rights_check",
+      "name": "権利チェック",
+      "agent": "rights_checker_agent",
+      "action": "check_rights",
+      "output": "reports/v{version}_rights_report.md",
+      "confirm": false
+    },
+    {
+      "id": "edit_suggestions",
+      "name": "編集提案",
+      "agent": "editor_agent",
+      "action": "suggest_edits",
+      "output": "reviews/v{version}_suggestions.md",
+      "confirm": true,
+      "confirmType": "suggestions",
+      "confirmMessage": "修正提案を確認してください"
+    }
+  ]
+}
