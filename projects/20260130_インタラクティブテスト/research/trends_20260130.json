@@ -1,0 +1,44 @@
+{
+  "inputKeywords": [
+    "AI疲れ",
+    "サブスク"
+  ],
+  "trends": [
+    {
+      "name": "AI通知疲れ",
+      "relevance": 94,
+      "description": "AIアシスタントからの過剰な通知や提案による疲労"
+    },
+    {
+      "name": "サブスク地獄",
+      "relevance": 91,
+      "description": "複数サービスの契約による経済的・精神的負担"
+    },
+    {
+      "name": "プロンプト職人化",
+      "relevance": 89,
+      "description": "AI操作スキルが新たな専門職として確立"
+    },
+    {
+      "name": "解約UXの闇",
+      "relevance": 85,
+      "description": "意図的に複雑化された解約プロセス"
+    },
+    {
+      "name": "創作者のアイデンティティ危機",
+      "relevance": 82,
+      "description": "AIと人間の創造性の境界が曖昧に"
+    },
+    {
+      "name": "デジタル小作人",
+      "relevance": 78,
+      "description": "所有せず借りるだけの消費者の状態"
+    }
+  ],
+  "recommendations": [
+    "AI通知疲れ",
+    "サブスク地獄",
+    "プロンプト職人化"
+  ],
+  "analyzedAt": "2026-01-30T12:01:25.844Z"
+}
